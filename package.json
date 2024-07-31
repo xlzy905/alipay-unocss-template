@@ -1,0 +1,14 @@
+{
+  "name": "bank-alipay-miniprogram",
+  "version": "1.0.0",
+  "scripts": {
+    "format": "biome format --write ./",
+    "unocss": "unocss ./**/*.axml -c unocss.config.ts --watch -o unocss.acss",
+    "unocss:build": "unocss ./**/*.axml -c unocss.config.ts -o unocss.acss"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@mini-types/alipay": "release",
+    "unocss": "^0.61.8"
+  }
+}

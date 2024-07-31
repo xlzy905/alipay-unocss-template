@@ -1,0 +1,18 @@
+{
+  "format": 2,
+  "developOptions": {
+    "hotReload": true
+  },
+  "compileOptions": {
+    "component2": true,
+    "typescript": true,
+    "enableNodeModuleBabelTransform": true,
+    "resolveAlias": {
+      "@/*": "./*"
+    }
+  },
+  "scripts": {
+    "watch": "npm run unocss",
+    "beforeUpload": "npm run unocss:build"
+  }
+}

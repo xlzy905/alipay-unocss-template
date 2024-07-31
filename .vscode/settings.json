@@ -1,0 +1,24 @@
+{
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit"
+  },
+  "prettier.enable": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[axml]": {
+    "editor.defaultFormatter": "alipay.minicode"
+  },
+  "files.associations": {
+    "*.acss": "css"
+  }
+}

@@ -1,0 +1,8 @@
+<view class="flex flex-col justify-center items-center w-750 h-600">
+  <view>
+    Hello Mini Program!
+  </view>
+  <view class="text-green">
+    Hello Unocss!
+  </view>
+</view>
